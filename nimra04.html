@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+  <title>Simple Resume Editor</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .container { width: 50%; margin: 0 auto; }
+    .input-field { display: block; margin-bottom: 10px; width: 100%; }
+    textarea { width: 100%; height: 100px; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Resume Editor</h1>
+    <label for="education">Education:</label>
+    <input id="education" class="input-field" type="text" />
+    <label for="work">Work:</label>
+    <input id="Work" class="input-field" type="text" />
+    <label for="Experience">Experience:</label>
+    <input id="experience" class="input-field"></label>
+    <button id="saveResume">Save Resume</button>
+    <button id="loadResume">Load Resume</button>
+  </div>
+  <script src="resumeEditor.js"></script>
+</body>
+</html>
